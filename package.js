@@ -1,6 +1,7 @@
 Package.describe({
   summary: "Ciscospark OAuth flow",
-  version: "1.0.0"
+  version: "1.0.0",
+  git: 'https://github.com/levensailor/ciscospark-oauth.git'
 });
 
 Package.onUse(function(api) {
