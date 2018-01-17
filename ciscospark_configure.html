@@ -1,0 +1,22 @@
+<template name="configureLoginServiceDialogForCiscospark">
+  <p>
+    Registering your Integration
+  </p>
+  <ol>
+    <li>
+      Registering an integration with Cisco Spark is super easy. In <a href="https://developer.ciscospark.com/apps.html" target="blank">My Apps</a> click on the Plus Button.
+    </li>
+    <li>
+      Click the Create an Integration button and provide some basic information like your integration's name, description and logo. This information should be user-facing since that's what they'll see in the permission dialog.
+    </li>
+    <li>
+      After successful registration you'll be taken to a different screen containing your integrations' newly created Client ID and Client Secret. The Client Secret will only be shown once so please copy and keep it safe!
+    </li>
+    <li>
+      Set Authorized Redirect URI to: <span class="url">{{siteUrl}}_oauth/ciscospark</span>
+    </li>
+    <li>
+      Finish by clicking "Create".
+    </li>
+  </ol>
+</template>
